@@ -1,0 +1,33 @@
+body {
+    background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.container {
+    max-width: 400px;
+    background: #5591c787;
+    padding: 1rem;
+}
+
+.container h1,
+.container label {
+    color:#f8f9fa;
+}
+
+.icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.card h6 {
+    font-size: 11px;
+    color: #ccc;
+}
